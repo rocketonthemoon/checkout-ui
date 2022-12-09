@@ -6,14 +6,14 @@ function data() {
     {
       photo: photo1,
       name: "Vintage Backbag",
-      newprice: "$54.99",
-      oldprice: "$94.99",
+      newprice: 54.99,
+      oldprice: 94.99,
     },
     {
       photo: photo2,
       name: "Levi Shoes",
-      newprice: "$74.99",
-      oldprice: "$124.99",
+      newprice: 74.99,
+      oldprice: 124.99,
     },
   ];
   return dataSet;

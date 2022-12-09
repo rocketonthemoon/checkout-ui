@@ -6,12 +6,22 @@ function Form() {
         <div className="input-field">
           <label htmlFor="email">E-mail</label>
           <span className="material-icons">mail</span>
-          <input type="text" id="email" placeholder="Enter your email..." />
+          <input
+            type="text"
+            id="email"
+            placeholder="Enter your email..."
+            required
+          />
         </div>
         <div className="input-field">
           <label htmlFor="phone">Phone</label>
           <span className="material-icons">phone</span>
-          <input type="number" id="phone" placeholder="Enter your phone..." />
+          <input
+            type="number"
+            id="phone"
+            placeholder="Enter your phone..."
+            required
+          />
         </div>
       </main>
       <main>
@@ -19,17 +29,22 @@ function Form() {
         <div className="input-field">
           <label htmlFor="name">Full name</label>
           <span className="material-icons">account_circle</span>
-          <input type="text" id="name" placeholder="Your name.." />
+          <input type="text" id="name" placeholder="Your name.." required />
         </div>
         <div className="input-field">
           <label htmlFor="address">Address</label>
           <span className="material-icons">home</span>
-          <input type="text" id="address" placeholder="Your address.." />
+          <input
+            type="text"
+            id="address"
+            placeholder="Your address.."
+            required
+          />
         </div>
         <div className="input-field">
           <label htmlFor="city">City</label>
           <span className="material-icons">location_city</span>
-          <input type="text" id="city" placeholder="Your city.." />
+          <input type="text" id="city" placeholder="Your city.." required />
         </div>
         <div className="input-group">
           <div className="input-field select-container">
@@ -38,8 +53,8 @@ function Form() {
             <div className="arrow-box">
               <div className="arrow-head"></div>
             </div>
-            <select id="country">
-              <option defaultValue="Your country.." disabled>
+            <select id="country" defaultValue="" required>
+              <option value="" disabled>
                 Your country..
               </option>
               <option value="india">india</option>
@@ -54,12 +69,13 @@ function Form() {
               type="number"
               id="post-code"
               placeholder="Your postal code.."
+              required
             />
           </div>
         </div>
       </main>
       <div className="save">
-        <input type="checkbox" id="save-box" />
+        <input type="checkbox" id="save-box" required />
         <span>Save this information for the next time</span>
       </div>
       <div className="button">
