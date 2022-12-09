@@ -304,3 +304,20 @@ footer .user {
   font-weight: 700;
   text-decoration: underline;
 }
+
+/* media queries */
+
+@media (max-width: 759px) {
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    gap:0;
+  }
+
+  .Cart {
+    margin-bottom: 0;
+  }
+
+}
