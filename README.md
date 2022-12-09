@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://checkout-ui.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://checkout-ui.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -36,11 +36,11 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![Screenshot 2022-12-09 at 6 35 00 PM](https://user-images.githubusercontent.com/90383172/206780012-11daf2bb-c6f4-4fc6-b3c2-61b3dcab2dff.jpg)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
+- Where can I see your demo? https://checkout-ui.netlify.app/
 - What was your experience? i've been studying web development for the past year
 - What have you learned/improved? i've been improving my understanding about how to implement different things efficiently
 - Your wisdom? To Dare Is To Do
@@ -63,7 +63,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/rocketonthemoon/checkout-ui
 
 # Install dependencies
 $ npm install
